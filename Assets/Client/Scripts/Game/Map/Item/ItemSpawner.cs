@@ -50,7 +50,7 @@ public class ItemSpawner : MonoBehaviour
         while (true)
         {
             SpawnRandomItem();
-            yield return new WaitForSeconds(Random.Range(1f, 1f));
+            yield return new WaitForSeconds(Random.Range(2f, 3f));
         }
     }
 }
